@@ -1,0 +1,55 @@
+/******************************************************TAG SELECTOR**************************************/
+h1{
+    color: yellow;
+    font-size: 150px;
+    border-width: 5px;
+    border-color: white;
+
+}
+img:hover{
+    zoom: 120%;        /*:hover selector*/
+
+}
+body{
+    background-color:yellow;
+}
+
+hr{
+    background-color:yellow;
+    border-style:none;
+    border-top-style: dotted;      
+    border-color: black;
+    border-width: 5px;
+    width: 45%;
+  }
+
+/***************************************CLASS SELECTOR****************************************/
+.Paneer{
+   
+    border-width: 5px;
+    border-color: black;
+}
+/* .circular{                       /*  <<<<<<<WE CAN NOT DO THIS WITH ID SELECTOR    
+    border-radius: 100%;
+}*/
+
+.broccoli{                            
+    
+    border-width: 5px;
+    border-color: black;          
+}
+
+/***************************************ID SELECTOR****************************************/
+#heading{
+    color:black;
+}
+
+/* NOTE :- CLASS VS ID SELECTOR
+
+"A Class name can be used by multiple HTML elements,
+while an ID name must only be used by one HTML element within the page."
+
+
+
+
+ 
